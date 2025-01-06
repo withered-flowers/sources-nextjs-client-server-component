@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const DashboardSidebar = () => {
 	return (
-		<aside className="w-64 h-full bg-gray-100 dark:bg-zinc-800/30 p-4">
+		<aside className="w-64 min-h-screen bg-gray-100 dark:bg-zinc-800/30 p-4">
 			<h2 className="text-2xl font-semibold mb-4">Navigation</h2>
 			{/* Sidebar */}
 			<ul>

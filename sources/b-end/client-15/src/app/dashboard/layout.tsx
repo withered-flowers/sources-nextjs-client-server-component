@@ -11,7 +11,7 @@ import DashboardSidebar from "@/components/DashboardSidebar";
 const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
 	return (
 		// Whole Screen
-		<section className="w-full h-screen flex">
+		<section className="w-full min-h-screen flex">
 			{/* Left Side */}
 			{/* Step 7 - Membuat Component DashboardSidebar (3) */}
 			{/* Mengganti aside yang ada dengan component DashboardSidebar */}

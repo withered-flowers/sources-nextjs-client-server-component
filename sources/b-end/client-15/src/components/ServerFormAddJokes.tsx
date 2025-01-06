@@ -15,6 +15,7 @@ const ServerFormAddJokes = () => {
 	// Server Action diharuskan berupa async function
 	// Di sini juga akan menerima FormData
 	const formActionHandler = async (formData: FormData) => {
+		// Perhatikan ada directive "use server" di sini
 		"use server";
 		// ?? Step 7 - Membuat Form Add Joke (Server Rendered Component) (5)
 		// Mendeklarasikan function ini sebagai server function dengan "use server"
